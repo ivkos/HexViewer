@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
   puts(APP_NAME);
 
   if (argc != 2) {
-    printf("Usage: %s <file name>\n", argv[1]);
+    printf("Usage: %s <file name>\n", argv[0]);
     exit(1);
   }
 
